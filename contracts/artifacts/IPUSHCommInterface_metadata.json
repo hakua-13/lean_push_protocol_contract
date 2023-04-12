@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_channel",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_identity",
+						"type": "bytes"
+					}
+				],
+				"name": "sendNotification",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/testSendingNotifications.sol": "IPUSHCommInterface"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/testSendingNotifications.sol": {
+			"keccak256": "0x5b10620f24579dcdc5517ec77f3fe4fd950f0d00ccfe47e20e12c428d5f60d9c",
+			"license": "Mit",
+			"urls": [
+				"bzz-raw://413b21aaa783849bc18c67dcdc1049f8f78e286a2081400a525d2e2baaf26d12",
+				"dweb:/ipfs/QmPwtGpEfG9QDGeRqb6ed8t6DjiqupXdfPCtsHQFMH6tq3"
+			]
+		}
+	},
+	"version": 1
+}
